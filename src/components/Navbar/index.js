@@ -38,7 +38,7 @@ const Navbar = () => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/sign in">Sign IN</NavBtnLink>
+          <NavBtnLink to="/signin">Sign IN</NavBtnLink>
         </NavBtn>
       </NavbarContainer>
     </Nav>
