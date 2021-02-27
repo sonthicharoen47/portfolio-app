@@ -15,7 +15,7 @@ import Icon3 from "../../images/000.svg";
 const Project = () => {
   return (
     <>
-      <ProjectContainer id="myprojects">
+      <ProjectContainer id="projects">
         <ProjectH1>Our project</ProjectH1>
         <ProjectWrapper>
           <ProjectCard>

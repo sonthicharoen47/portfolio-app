@@ -43,7 +43,7 @@ export const homeObjTwo = {
 
 //my skills
 export const homeObjThree = {
-  id: "myskills",
+  id: "skills",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
