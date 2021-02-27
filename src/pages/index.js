@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import { homeObjOne } from "../components/InfoSection/Data";
+import {
+  homeObjOne,
+  homeObjTwo,
+  homeObjThree,
+  homeObjFour,
+} from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
+import Project from "../components/Project";
 import SideBar from "../components/SideBar";
 
 const Home = () => {
@@ -17,6 +23,10 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
+      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjThree} />
+      <Project />
+      <InfoSection {...homeObjFour} />
     </>
   );
 };
