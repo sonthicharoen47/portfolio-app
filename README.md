@@ -7,7 +7,9 @@ https://sonthicharoen-portfolio-app.herokuapp.com
 ## How to start?
 
 1.clone this project
+
 2.npm i
+
 3.npm start
 
 ## Ref
