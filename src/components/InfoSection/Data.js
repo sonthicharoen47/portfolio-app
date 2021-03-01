@@ -3,6 +3,7 @@ import educateImg from "./../../images/educate.svg";
 import skillImg from "./../../images/skill.svg";
 
 import About from "./../About";
+import Education from "./../Education";
 
 //about me
 export const homeObjOne = {
@@ -36,6 +37,8 @@ export const homeObjTwo = {
   alt: "education",
   primary: false,
   darkText: false,
+  tagId: "educationmore",
+  tag: <Education />,
 };
 
 //my skills
