@@ -4,6 +4,7 @@ import skillImg from "./../../images/skill.svg";
 
 import About from "./../About";
 import Education from "./../Education";
+import Skill from "./../Skill";
 
 //about me
 export const homeObjOne = {
@@ -55,4 +56,6 @@ export const homeObjThree = {
   alt: "my skills",
   primary: true,
   darkText: true,
+  tagId: "skillmore",
+  tag: <Skill />,
 };
