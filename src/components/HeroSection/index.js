@@ -10,9 +10,11 @@ import {
   ArrowForward,
   ArrowRight,
   Button,
+  HeroImgWrap,
+  HeroImg,
 } from "./HeroElements";
 import Video from "../../videos/video.mp4";
-
+import img from "../../images/profile.jpg";
 const HeroSection = (primary) => {
   const [hover, setHover] = useState(false);
 
@@ -26,6 +28,9 @@ const HeroSection = (primary) => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
+        <HeroImgWrap>
+          <HeroImg src={img} />
+        </HeroImgWrap>
         <HeroH1>Welcome to My Website</HeroH1>
         <HeroP>
           Hi!, My Name is Kittikon Sonthicharoen. I am a new garduate. :D

@@ -20,15 +20,6 @@ const Footer = () => {
     <>
       <FooterContainer>
         <FooterWrap>
-          {/* <FooterLinkContainer>
-            <FooterLinkWrapper>
-              <FooterLinkItems>
-                <FooterLinkTitle>About us</FooterLinkTitle>
-                <FooterLink to="/signin">how it work</FooterLink>
-                <FooterLink to="/signin">testimola</FooterLink>
-              </FooterLinkItems>
-            </FooterLinkWrapper>
-          </FooterLinkContainer> */}
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo to="/" onClick={toggleHome}>

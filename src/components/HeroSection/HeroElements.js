@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
   padding: 0 30px;
   height: 800px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 
   ::before {
     position: absolute;
@@ -25,7 +25,7 @@ export const HeroContainer = styled.div`
         100%
       ),
       linear-gradient(180, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-    z-index: 2;
+    z-index: 3;
   }
 `;
 
@@ -48,8 +48,25 @@ export const VideoBg = styled.video`
   background: #232834;
 `;
 
+export const HeroImgWrap = styled.div`
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  margin-bottom: 16px;
+`;
+
+export const HeroImg = styled.img`
+  width: 100%;
+  height: 100%;
+  -moz-border-radius: 120px;
+  -webkit-border-radius: 1200px;
+  border-radius: 120px;
+`;
 export const HeroContent = styled.div`
-  z-index: 3;
+  z-index: 4;
   max-width: 1200px;
   position: absolute;
   padding: 8px 24px;
@@ -59,7 +76,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: #fff;
+  color: #01bf71;
   font-size: 48px;
   text-align: center;
 

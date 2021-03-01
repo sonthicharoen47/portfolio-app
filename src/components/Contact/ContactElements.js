@@ -12,7 +12,7 @@ export const ContactContainer = styled.div`
 export const ContactWrap = styled.div`
   display: grid;
   z-index: 1;
-  height: 680px;
+  height: 720px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
