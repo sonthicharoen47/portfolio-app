@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-  height: 800px;
+  height: 680px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #fffafa;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -37,7 +37,7 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const ProjectCard = styled.div`
-  background: #fff;
+  background: #d3d3d3;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -63,7 +63,7 @@ export const ProjectIcon = styled.img`
 
 export const ProjectH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #32cd32;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
@@ -72,6 +72,7 @@ export const ProjectH1 = styled.h1`
 `;
 
 export const ProjectH2 = styled.h2`
+  color: #6a5acd;
   font-size: 1rem;
   margin-bottom: 10px;
 `;

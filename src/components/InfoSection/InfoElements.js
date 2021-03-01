@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 680px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -47,7 +47,7 @@ export const Column2 = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  max-width: 420px;
   padding-top: 0;
   padding-bottom: 60px;
 `;
@@ -67,7 +67,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+  color: #32cd32;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -79,7 +79,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  color: ${({ darkText }) => (darkText ? "#000" : "#fff")};
 `;
 
 export const BtnWrap = styled.div`

@@ -25,7 +25,7 @@ const Footer = () => {
     <>
       <FooterContainer>
         <FooterWrap>
-          <FooterLinkContainer>
+          {/* <FooterLinkContainer>
             <FooterLinkWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>About us</FooterLinkTitle>
@@ -33,7 +33,7 @@ const Footer = () => {
                 <FooterLink to="/signin">testimola</FooterLink>
               </FooterLinkItems>
             </FooterLinkWrapper>
-          </FooterLinkContainer>
+          </FooterLinkContainer> */}
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo to="/" onClick={toggleHome}>
@@ -51,7 +51,11 @@ const Footer = () => {
                 >
                   <FaFacebook />
                 </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+                <SocialIconLink
+                  href="//https://brittanychiang.com/"
+                  target="_blank"
+                  aria-label="Linkedin"
+                >
                   <FaLinkedin />
                 </SocialIconLink>
                 <SocialIconLink href="/" target="_blank" aria-label="Github">

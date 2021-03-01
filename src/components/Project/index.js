@@ -8,9 +8,9 @@ import {
   ProjectH2,
   ProjectP,
 } from "./ProjectElements";
-import Icon1 from "../../images/svg-1.svg";
-import Icon2 from "../../images/svg-3.svg";
-import Icon3 from "../../images/000.svg";
+import Icon1 from "../../images/project/project-1.svg";
+import Icon2 from "../../images/project/project-2.svg";
+import Icon3 from "../../images/project/project-3.svg";
 
 const Project = () => {
   return (

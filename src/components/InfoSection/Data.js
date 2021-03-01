@@ -1,80 +1,72 @@
-import svg1 from "./../../images/svg-1.svg";
-import svg2 from "./../../images/svg-2.svg";
-import svg3 from "./../../images/svg-3.svg";
-import svg4 from "./../../images/svg-4.svg";
+import aboutImg from "../../images/aboutme.svg";
+import educateImg from "./../../images/educate.svg";
+import skillImg from "./../../images/skill.svg";
+import contactImg from "./../../images/contact.svg";
 
 //about me
 export const homeObjOne = {
   id: "about",
   lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
   topline: "",
   headline: "About Me",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
-  buttonLabel: "Get started",
+    "   My name is Kittikon. I am new graduate(2020). I am looking for a job as a web developer.",
+  buttonLabel: "See more",
   imgStart: false,
-  img: svg1,
+  img: aboutImg,
   alt: "about me",
-  dark: true,
   primary: true,
   darkText: false,
+  dark: false,
 };
 
 //education
 export const homeObjTwo = {
   id: "education",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
   topline: "",
   headline: "Education",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
-  buttonLabel: "Get started",
+    "I graduated with bachelor's degree in Computer Engineering from Kasetsart University Kamphaeng Saen Campus.",
+  buttonLabel: "See more",
   imgStart: true,
-  img: svg2,
+  img: educateImg,
   alt: "education",
+  primary: false,
+  darkText: true,
   dark: true,
-  primary: true,
-  darkText: false,
 };
 
 //my skills
 export const homeObjThree = {
   id: "skills",
   lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
   topline: "",
   headline: "My Skills",
   description:
     "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
-  buttonLabel: "Get started",
+  buttonLabel: "See more",
   imgStart: false,
-  img: svg3,
+  img: skillImg,
   alt: "my skills",
-  dark: true,
   primary: true,
   darkText: false,
+  dark: false,
 };
 
 //contact
 export const homeObjFour = {
   id: "contact",
   lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
   topline: "",
   headline: "Contact",
   description:
     "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
-  buttonLabel: "Get started",
+  buttonLabel: "Contact Now",
   imgStart: false,
-  img: svg4,
+  img: contactImg,
   alt: "contact",
-  dark: true,
   primary: true,
   darkText: false,
+  dark: false,
 };

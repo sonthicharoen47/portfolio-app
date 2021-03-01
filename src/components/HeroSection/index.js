@@ -32,11 +32,11 @@ const HeroSection = () => {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to="signup"
+            to="/sign"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            primary="true"
-            dark="true"
+            primary={false}
+            dark={false}
           >
             Get Strated {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

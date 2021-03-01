@@ -82,7 +82,12 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #fff;
+    border-bottom: 4px solid #ffa500;
+  }
+
+  &:hover {
+    color: #ffa500;
+    font-size: 18px;
   }
 `;
 
@@ -97,7 +102,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkRouter)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #ffa500;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;
@@ -110,7 +115,8 @@ export const NavBtnLink = styled(LinkRouter)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    background: #6a5acd;
+    color: #ffa500;
+    -webkit-text-stroke: 1px #ffa500;
   }
 `;

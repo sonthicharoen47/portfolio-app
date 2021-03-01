@@ -19,16 +19,14 @@ const InfoSection = ({
   id,
   imgStart,
   topline,
-  lightText,
   headline,
-  darktext,
+  darkText,
   description,
   buttonLabel,
   img,
   alt,
   primary,
   dark,
-  dark2,
 }) => {
   return (
     <>
@@ -38,11 +36,11 @@ const InfoSection = ({
             <Column1>
               <TextWrapper>
                 <TopLine>{topline}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darktext={darktext}>{description}</Subtitle>
+                <Heading>{headline}</Heading>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    to={id}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -50,7 +48,6 @@ const InfoSection = ({
                     offset={-80}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
                   </Button>
