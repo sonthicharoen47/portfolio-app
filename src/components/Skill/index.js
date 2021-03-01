@@ -13,12 +13,12 @@ import {
 } from "./skillElements";
 const Skill = (value) => {
   const data = {
-    html: 50,
-    css: 40,
-    es6: 70,
-    sql: 50,
-    node: 70,
-    react: 30,
+    html: 40,
+    css: 30,
+    es6: 60,
+    sql: 40,
+    node: 60,
+    react: 20,
     git: 40,
   };
   return (

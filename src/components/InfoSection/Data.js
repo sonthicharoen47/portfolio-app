@@ -49,7 +49,7 @@ export const homeObjThree = {
   topline: "",
   headline: "My Skills",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+    "My Skills are basic to middle, but 'm a fast learning and having continual improvement. ",
   buttonLabel: "See more",
   imgStart: false,
   img: skillImg,

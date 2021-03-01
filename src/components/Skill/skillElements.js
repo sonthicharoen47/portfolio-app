@@ -36,7 +36,7 @@ export const SkillH1 = styled.h2`
   align-items: center;
   text-align: center;
   font-size: 20px;
-  color: #fff;
+  color: #6a5acd;
   height: 15%;
   margin-top: 10px;
 `;
@@ -47,7 +47,7 @@ export const SkillH2 = styled.h3`
   text-align: center;
   font-size: 16px;
   width: 15%;
-  color: #fff;
+  color: #00ffff;
   height: 20%;
 `;
 
@@ -89,4 +89,5 @@ export const PercentP = styled.h2`
   justify-content: center;
   font-size: 20px;
   display: flex;
+  color: #01fb71;
 `;
