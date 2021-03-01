@@ -2,11 +2,6 @@ import React from "react";
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinkContainer,
-  FooterLinkWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
@@ -41,7 +36,7 @@ const Footer = () => {
               </SocialLogo>
 
               <WebsiteRights>
-                exosit © {new Date().getFullYear()}All rights reserved.
+                exosit © {new Date().getFullYear()}. All rights reserved.
               </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink

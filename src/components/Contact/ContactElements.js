@@ -115,12 +115,12 @@ export const ContactInput = styled.input`
 
 export const ContactMessage = styled.textarea`
   padding: 6px;
-  width: 75%;
+  width: 100%;
   height: 150px;
   font-size: 16px;
   color: #000;
   margin-bottom: 16px;
-  margin-top: 6px;
+  margin-top: 10px;
   border-radius: 25px;
 `;
 
@@ -152,4 +152,12 @@ export const FormContainer = styled.div`
   align-items: center;
   margin-bottom: 6px;
   height: 32px;
+`;
+
+export const ContactMessageWrap = styled.div`
+  justify-content: center;
+  align-items: center;
+  display: block;
+  width: 80%;
+  text-align: center;
 `;

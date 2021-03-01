@@ -1,12 +1,11 @@
 import aboutImg from "../../images/aboutme.svg";
 import educateImg from "./../../images/educate.svg";
 import skillImg from "./../../images/skill.svg";
-import contactImg from "./../../images/contact.svg";
 
 //about me
 export const homeObjOne = {
   id: "about",
-  lightBg: false,
+  lightBg: true,
   topline: "",
   headline: "About Me",
   description:
@@ -16,7 +15,7 @@ export const homeObjOne = {
   img: aboutImg,
   alt: "about me",
   primary: true,
-  darkText: false,
+  darkText: true,
 };
 
 //education
@@ -38,7 +37,7 @@ export const homeObjTwo = {
 //my skills
 export const homeObjThree = {
   id: "skills",
-  lightBg: false,
+  lightBg: true,
   topline: "",
   headline: "My Skills",
   description:
@@ -48,22 +47,5 @@ export const homeObjThree = {
   img: skillImg,
   alt: "my skills",
   primary: true,
-  darkText: false,
-};
-
-//contact
-export const homeObjFour = {
-  id: "contact",
-  lightBg: false,
-  topline: "",
-  headline: "Contact",
-  description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
-  buttonLabel: "Contact Now",
-  imgStart: false,
-  img: contactImg,
-  alt: "contact",
-  primary: true,
-  darkText: false,
-  dark: false,
+  darkText: true,
 };

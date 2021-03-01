@@ -6,7 +6,6 @@ import {
   homeObjOne,
   homeObjTwo,
   homeObjThree,
-  homeObjFour,
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";

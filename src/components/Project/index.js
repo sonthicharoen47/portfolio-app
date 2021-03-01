@@ -16,22 +16,22 @@ const Project = () => {
   return (
     <>
       <ProjectContainer id="projects">
-        <ProjectH1>Our project</ProjectH1>
+        <ProjectH1>My Projects</ProjectH1>
         <ProjectWrapper>
           <ProjectCard>
             <ProjectIcon src={Icon1} />
-            <ProjectH2>My grudate project</ProjectH2>
-            <ProjectP>we help u</ProjectP>
+            <ProjectH2>Grudate Project</ProjectH2>
+            <ProjectP>Machine learning</ProjectP>
           </ProjectCard>
           <ProjectCard>
             <ProjectIcon src={Icon2} />
-            <ProjectH2>My Project web</ProjectH2>
-            <ProjectP>we help u</ProjectP>
+            <ProjectH2>Portfolio Web</ProjectH2>
+            <ProjectP>My portfolio is here</ProjectP>
           </ProjectCard>
           <ProjectCard>
             <ProjectIcon src={Icon3} />
-            <ProjectH2>React+NodeJs</ProjectH2>
-            <ProjectP>we help u</ProjectP>
+            <ProjectH2>Tutorial</ProjectH2>
+            <ProjectP>Todo App</ProjectP>
           </ProjectCard>
         </ProjectWrapper>
       </ProjectContainer>

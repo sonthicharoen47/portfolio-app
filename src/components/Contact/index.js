@@ -16,6 +16,7 @@ import {
   ContactBtn,
   Subtitle,
   FormContainer,
+  ContactMessageWrap,
 } from "./ContactElements";
 
 import img from "../../images/contact.svg";
@@ -47,6 +48,11 @@ const Contact = () => {
       <ContactWrap>
         <ContactRow>
           <Column1>
+            <ImgWrap>
+              <Img src={img} alt="test img 1" />
+            </ImgWrap>
+          </Column1>
+          <Column2>
             <Heading>Contact</Heading>
             <Subtitle>
               If you would like any additional information. Please don't
@@ -66,15 +72,12 @@ const Contact = () => {
                 <ContactLabel>From</ContactLabel>
                 <ContactInput type="text" name="user_from" />
               </FormContainer>
-              <ContactLabel>Message</ContactLabel>
-              <ContactMessage name="message" /> <br />
-              <ContactBtn type="submit" value="Send email" />
+              <ContactMessageWrap>
+                <ContactLabel>Message</ContactLabel>
+                <ContactMessage name="message" />
+                <ContactBtn type="submit" value="Send email" />
+              </ContactMessageWrap>
             </ContactForm>
-          </Column1>
-          <Column2>
-            <ImgWrap>
-              <Img src={img} alt="test img 1" />
-            </ImgWrap>
           </Column2>
         </ContactRow>
       </ContactWrap>
