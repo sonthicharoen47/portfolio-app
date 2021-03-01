@@ -12,8 +12,11 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
+  ToggleContainer,
 } from "./InfoElements";
 import { Button } from "../ButtonElements";
+import useVisibility from "./useVisibility";
+
 const InfoSection = ({
   lightBg,
   id,
@@ -26,7 +29,11 @@ const InfoSection = ({
   img,
   alt,
   primary,
+  tagId,
+  tag,
 }) => {
+  const [Component, toggleVisibility] = useVisibility(tag, false);
+
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -44,8 +51,9 @@ const InfoSection = ({
                     duration={500}
                     spy={true}
                     exact="true"
-                    offset={-80}
+                    offset={200}
                     primary={primary ? 1 : 0}
+                    onClick={toggleVisibility}
                   >
                     {buttonLabel}
                   </Button>
@@ -59,6 +67,7 @@ const InfoSection = ({
             </Column2>
           </InfoRow>
         </InfoWrapper>
+        <ToggleContainer id={tagId}>{Component}</ToggleContainer>
       </InfoContainer>
     </>
   );

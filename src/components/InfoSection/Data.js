@@ -2,6 +2,8 @@ import aboutImg from "../../images/aboutme.svg";
 import educateImg from "./../../images/educate.svg";
 import skillImg from "./../../images/skill.svg";
 
+import About from "./../About";
+
 //about me
 export const homeObjOne = {
   id: "about",
@@ -16,6 +18,8 @@ export const homeObjOne = {
   alt: "about me",
   primary: true,
   darkText: true,
+  tagId: "aboutmore",
+  tag: <About />,
 };
 
 //education
