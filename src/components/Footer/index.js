@@ -45,20 +45,24 @@ const Footer = () => {
               </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink
-                  href="//www.facebook.com"
+                  href="https://www.facebook.com/sonthicharoen47"
                   target="_blank"
                   aria-label="Facebook"
                 >
                   <FaFacebook />
                 </SocialIconLink>
                 <SocialIconLink
-                  href="//https://brittanychiang.com/"
+                  href="https://www.linkedin.com/in/kittikon-sonthicharoen-03378b207/"
                   target="_blank"
                   aria-label="Linkedin"
                 >
                   <FaLinkedin />
                 </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Github">
+                <SocialIconLink
+                  href="https://github.com/sonthicharoen47"
+                  target="_blank"
+                  aria-label="Github"
+                >
                   <FaGithub />
                 </SocialIconLink>
               </SocialIcons>

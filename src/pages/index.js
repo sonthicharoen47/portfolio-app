@@ -11,6 +11,7 @@ import {
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";
 import SideBar from "../components/SideBar";
+import Contact from "../components/Contact";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ const Home = () => {
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <Project />
-      <InfoSection {...homeObjFour} />
+      <Contact />
       <Footer />
     </>
   );

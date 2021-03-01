@@ -6,7 +6,7 @@ export const ProjectContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #fffafa;
+  background: #000;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -19,7 +19,7 @@ export const ProjectContainer = styled.div`
 
 export const ProjectWrapper = styled.div`
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -37,7 +37,7 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const ProjectCard = styled.div`
-  background: #d3d3d3;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -64,7 +64,7 @@ export const ProjectIcon = styled.img`
 export const ProjectH1 = styled.h1`
   font-size: 2.5rem;
   color: #32cd32;
-  margin-bottom: 64px;
+  margin-bottom: 48px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;

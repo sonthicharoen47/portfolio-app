@@ -26,7 +26,6 @@ const InfoSection = ({
   img,
   alt,
   primary,
-  dark,
 }) => {
   return (
     <>
@@ -47,7 +46,6 @@ const InfoSection = ({
                     exact="true"
                     offset={-80}
                     primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
                   >
                     {buttonLabel}
                   </Button>

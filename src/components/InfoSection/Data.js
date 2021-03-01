@@ -17,13 +17,12 @@ export const homeObjOne = {
   alt: "about me",
   primary: true,
   darkText: false,
-  dark: false,
 };
 
 //education
 export const homeObjTwo = {
   id: "education",
-  lightBg: true,
+  lightBg: false,
   topline: "",
   headline: "Education",
   description:
@@ -33,8 +32,7 @@ export const homeObjTwo = {
   img: educateImg,
   alt: "education",
   primary: false,
-  darkText: true,
-  dark: true,
+  darkText: false,
 };
 
 //my skills
@@ -51,7 +49,6 @@ export const homeObjThree = {
   alt: "my skills",
   primary: true,
   darkText: false,
-  dark: false,
 };
 
 //contact

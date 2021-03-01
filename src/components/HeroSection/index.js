@@ -9,11 +9,11 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
+  Button,
 } from "./HeroElements";
 import Video from "../../videos/video.mp4";
-import { Button } from "../ButtonElements";
 
-const HeroSection = () => {
+const HeroSection = (primary) => {
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -32,13 +32,17 @@ const HeroSection = () => {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to="/sign"
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            primary={primary ? 1 : 0}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            primary={false}
-            dark={false}
           >
-            Get Strated {hover ? <ArrowForward /> : <ArrowRight />}
+            Contact Now! {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
