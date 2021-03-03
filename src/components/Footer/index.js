@@ -23,11 +23,11 @@ const Footer = () => {
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo to="/" onClick={toggleHome}>
-                exositz
+                Portfolio
               </SocialLogo>
 
               <WebsiteRights>
-                exosit © {new Date().getFullYear()}. All rights reserved.
+                Copyright © {new Date().getFullYear()}. All rights reserved.
               </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink
