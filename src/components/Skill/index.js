@@ -19,7 +19,6 @@ const Skill = (value) => {
     sql: 40,
     node: 60,
     react: 20,
-    git: 40,
   };
   return (
     <>
@@ -83,15 +82,6 @@ const Skill = (value) => {
               </SkillProcess>
               <SkillPercent>
                 <PercentP>{data.react}%</PercentP>
-              </SkillPercent>
-            </CardItem>
-            <CardItem>
-              <SkillH2>Git</SkillH2>
-              <SkillProcess>
-                <SkillValue value={data.git} />
-              </SkillProcess>
-              <SkillPercent>
-                <PercentP>{data.git}%</PercentP>
               </SkillPercent>
             </CardItem>
           </SkillCard>

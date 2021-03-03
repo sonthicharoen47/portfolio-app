@@ -26,7 +26,7 @@ const Project = () => {
           <ProjectCard>
             <ProjectIcon src={Icon2} />
             <ProjectH2>Portfolio Web</ProjectH2>
-            <ProjectP>My portfolio is here</ProjectP>
+            <ProjectP>This Website</ProjectP>
           </ProjectCard>
           <ProjectCard>
             <ProjectIcon src={Icon3} />

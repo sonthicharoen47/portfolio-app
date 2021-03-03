@@ -49,7 +49,7 @@ export const homeObjThree = {
   topline: "",
   headline: "My Skills",
   description:
-    "My Skills are basic to middle, but 'm a fast learning and having continual improvement. ",
+    "My Skills are basic to middle, but i'm a fast learning and having continual improvement. ",
   buttonLabel: "See more",
   imgStart: false,
   img: skillImg,

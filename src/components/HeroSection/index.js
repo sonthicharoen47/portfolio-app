@@ -32,9 +32,7 @@ const HeroSection = (primary) => {
           <HeroImg src={img} />
         </HeroImgWrap>
         <HeroH1>Welcome to My Website</HeroH1>
-        <HeroP>
-          Hi!, My Name is Kittikon Sonthicharoen. I am a fresh garduate. :D
-        </HeroP>
+        <HeroP>Hi!, My Name is Kittikon Sonthicharoen. :D</HeroP>
         <HeroBtnWrapper>
           <Button
             to="contact"
