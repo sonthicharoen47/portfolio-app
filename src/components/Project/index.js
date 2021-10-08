@@ -29,9 +29,14 @@ const Project = () => {
             <ProjectP>This Website</ProjectP>
           </ProjectCard>
           <ProjectCard>
-            <ProjectIcon src={Icon3} />
-            <ProjectH2>Tutorial</ProjectH2>
-            <ProjectP>Todo App</ProjectP>
+            <ProjectIcon
+              src={Icon3}
+              onClick={() =>
+                window.open("https://library-heroku-app.herokuapp.com/")
+              }
+            />
+            <ProjectH2>Library Online</ProjectH2>
+            <ProjectP>React(Redux) + Node.js(Express)</ProjectP>
           </ProjectCard>
         </ProjectWrapper>
       </ProjectContainer>

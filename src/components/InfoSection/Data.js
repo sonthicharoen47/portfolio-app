@@ -13,7 +13,7 @@ export const homeObjOne = {
   topline: "",
   headline: "About Me",
   description:
-    "   My name is Kittikon. I am new graduate(2020). I am looking for a job as a web developer.",
+    "   My name is Kittikon. I am fresh graduate(2020). I am looking for a job as a web developer.",
   buttonLabel: "See more",
   imgStart: false,
   img: aboutImg,
